@@ -4,7 +4,7 @@
 - and3510
 - gustavodovale
 - whosbea
-- cristovam
+- cristovam10000
 
 ## Requisitos:
 - Menu Principal;
