@@ -3,6 +3,7 @@ body {
 }
  
 h1 {
+    color: white;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -28,11 +29,11 @@ nav {
   
 a {
     font-family: 'Courier New', Courier, monospace;
-    margin: 0 1rem;
+    margin: 0 14px;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s;
 }
 
 a:hover {
@@ -96,3 +97,15 @@ footer {
     background-color: #3a3838;
 
 }
+
+form {
+    color: white;
+    margin-bottom: 2px;
+
+}
+
+input {
+    padding: 2px;
+}
+
+
