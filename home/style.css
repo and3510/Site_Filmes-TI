@@ -38,6 +38,13 @@ a {
     transition: 0.2s;
 }
 
+img:hover{
+    border: 5px solid #0f123f;
+    margin: 7px;
+    border-radius: 30px;
+    width: 200px;
+}
+
 a:hover {
     border: 2px solid #0f123f;
     padding: 10px;
@@ -81,7 +88,7 @@ a:hover {
     background-color: #006168;
     border: 2px solid #006168;
     width: auto;
-    height: 300px;
+    height: 375px;
 }
 #contact {
     background-color: #3a3838;
@@ -125,10 +132,10 @@ input {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 350px;
-    margin-right: 350px;
-    border: 2px solid rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 200px;
     justify-content: space-between;
+    padding: 6px;
     
     
 }
@@ -144,6 +151,12 @@ input {
 .nav_menu a {
     margin: 30px;
     align-content: center;
+}
+
+.nav_menu img {
+    width: 200px;
+    border-radius: 30px;
+    transition: 0.2s;
 }
 
 #menu {
