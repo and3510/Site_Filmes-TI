@@ -8,7 +8,14 @@
 
 ## Requisitos:
 - Menu Principal;
-- Uma página para cada filme;
+- Uma página para cada filme:
+  - Avaliaçao por estrelas
+  - Um video
+  - Uma foto
+  - Comentarios
+  - gêneros do filme
+  - Sinopse
+  - Titulo
 - Mesmo estilo de cores em todos as páginas.
 
 ## Tarefas:
