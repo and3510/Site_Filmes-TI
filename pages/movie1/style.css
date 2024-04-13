@@ -1,0 +1,31 @@
+.avaliacao{
+    margin-right: 1050px;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+
+}
+.estrela-icon{
+list-style-type: none;
+cursor: pointer;
+color: #ffe500;
+font-size: 25px;
+}
+
+.estrela-icon::before{
+content: "\2605";
+}
+.estrela-icon.ativo ~ .estrela-icon::before{
+content: "\2606";
+}
+.avaliacao:hover .estrela-icon::before{
+content: "\2605";
+}
+.estrela-icon:hover ~ .estrela-icon::before{
+content: "\2606";
+}
+
+.estrela-icon {
+    padding: 0px;
+    margin: 0px;
+}

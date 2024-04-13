@@ -118,6 +118,48 @@ a:hover {
     
 }
 
+#painel {
+    border-top: 5px solid #1db7c2;
+    border-bottom: 5px solid #1db7c2;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #1b1b1b;
+    width: auto;
+    height: 530px;
+}
+
+#painel img {
+    border: 4px solid rgb(54, 54, 54);
+    margin-top: 80px;
+    margin-left: 55px;
+    border-radius: 30px;
+    width: 180px;
+    height: 210px;
+}
+#painel div {
+    margin-left: 285px;
+    margin-top: -270px;
+}
+
+#painel p {
+    color: #fff;
+}
+
+#painel video {
+    border: 2px outset rgb(122, 116, 116);
+    border-radius: 30px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 375px;
+}
+
+#painel ul {
+    margin-top: 5px;
+    margin-left: 93px;
+}
+
 
 
 
@@ -221,3 +263,5 @@ form {
 #footer img {
     width: 20px;
 }
+
+
