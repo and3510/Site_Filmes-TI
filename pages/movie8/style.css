@@ -1,16 +1,46 @@
 #poster{
     position: absolute;
-    width: 326px;
+    width: 300px;
     height: 360px;
     left: 72px;
     top: 163px;
 }
 
-.infosFilme{
+h1{
     position: absolute;
     width: 700px;
     height: 0px;
     left: 562px;
-    top: 198px;
+    top: 95px;
+}
+
+.sinopseFilme{
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 562px;
+    top: 150px;
+}
+
+.infosFilme{
+    position: absolute;
+    height: 0px;
+    left: 562px;
+    top: 390px;
+}
+
+.streamings{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    top: 100px;
+}
+
+article{
+    position: absolute;
+    width: 676px;
+    height: 0px;
+    left: 619px;
+    top: 600px;
 
 }
