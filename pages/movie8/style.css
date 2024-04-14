@@ -1,3 +1,33 @@
+header{
+    position: absolute;
+    width: 1481px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+
+    background: #CCCACA;
+}
+
+#nomeSite{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 100px;
+    top: 1px;
+
+}
+
+#home{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 33px;
+    top: 15px;
+
+    background: #463E3E;
+    border-radius: 10px;
+}
+
 #poster{
     position: absolute;
     width: 300px;
@@ -33,7 +63,13 @@ h1{
     position: absolute;
     width: 200px;
     height: 38px;
-    top: 100px;
+    top: 110px;
+}
+
+#trailer{
+    position: absolute;
+    left: 800px;
+    top: 403px;
 }
 
 article{
@@ -41,6 +77,15 @@ article{
     width: 676px;
     height: 0px;
     left: 619px;
-    top: 600px;
+    top: 750px;
+}
 
+footer {
+    position: absolute;
+    width: 1481px;
+    height: 77px;
+    left: 0px;
+    top: 947px;
+
+    background-color: #CCCACA;
 }
