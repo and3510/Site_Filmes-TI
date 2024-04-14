@@ -1,0 +1,16 @@
+#poster{
+    position: absolute;
+    width: 326px;
+    height: 360px;
+    left: 72px;
+    top: 163px;
+}
+
+.infosFilme{
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 562px;
+    top: 198px;
+
+}
