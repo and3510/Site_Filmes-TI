@@ -14,7 +14,8 @@ header{
     height: 0px;
     left: 100px;
     top: 1px;
-
+    margin: 0;
+    margin-top: 15px;
 }
 
 #home{
@@ -35,6 +36,21 @@ header{
     height: 360px;
     left: 72px;
     top: 163px;
+}
+
+.tituloFilme{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.postTitulo {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.text{
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 h1{
@@ -58,6 +74,23 @@ h1{
     height: 0px;
     left: 562px;
     top: 390px;
+}
+
+#generos{
+    left: 10px;
+    top: 190px;
+    width: 300px;
+
+}
+
+.genero{
+    margin-left: 10px;
+    width: 40px;
+    padding: 15px;
+    background: #CCCACA;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #streamings{
@@ -86,7 +119,7 @@ h1{
 #trailer{
     position: absolute;
     left: 800px;
-    top: 403px;
+    top: 360px;
 }
 
 article{
@@ -94,7 +127,7 @@ article{
     width: 676px;
     height: 0px;
     left: 562px;
-    top: 750px;
+    top: 710px;
 }
 
 footer {
