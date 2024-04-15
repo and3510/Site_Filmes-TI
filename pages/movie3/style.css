@@ -1,0 +1,20 @@
+header {
+border: 1px solid red;
+height: 30px;
+}
+#foto{
+border: 1px solid blue;
+height: 300px;
+width: 300px;
+}
+body {
+    border: 1px solid purple;
+}
+footer{
+    border: 1px solid green;
+    height: 30px;
+}
+#informação{
+    border: 1px solid yellow;
+    height: 100px;
+}
