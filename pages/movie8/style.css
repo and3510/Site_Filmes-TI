@@ -93,7 +93,7 @@ article{
     position: absolute;
     width: 676px;
     height: 0px;
-    left: 619px;
+    left: 562px;
     top: 750px;
 }
 
@@ -105,4 +105,22 @@ footer {
     top: 947px;
 
     background-color: #CCCACA;
+}
+
+footer {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+ 
+}
+
+#contatos a:hover {
+    background-color: #ffffff;
+
+}
+
+#contatos {
+    margin-left: -40px;
 }
