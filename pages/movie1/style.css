@@ -43,6 +43,11 @@ content: "\2606";
     height: 1200px;
 }
 
+#painel h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
 #painel img {
     margin-top: 80px;
     margin-left: 55px;
@@ -118,9 +123,143 @@ content: "\2606";
 #comment {
     position: absolute;
     background-color: #4b4a48;
-    height: 300px;
+    height: 325px;
     width: 800px;
     top: 1100px;
     right: 195px;
     border-radius: 20px;
 }
+
+
+#comment1 img {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    padding: 3px;
+    border-radius: 50%;
+    display: inline-block; 
+    vertical-align: middle;
+    height: 30px;
+    margin: 3px;
+    width: 30px;
+    right: 740px;
+    top: 257px;
+
+}
+
+#comment1 input {
+    width: 350px;
+    position: absolute;
+    top: 258px;
+    color: #000000;
+    right: 365px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+#comment1 input:hover {
+
+    border: 2px solid rgb(44, 43, 43);
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+#comment-usu1 img {
+    background-color: white;
+    border: 2px solid rgb(34, 33, 33);
+    position: absolute;
+    padding: 3px;
+    border-radius: 50%;
+    display: inline-block; 
+    vertical-align: middle;
+    height: 30px;
+    margin: 3px;
+    width: 30px;
+    right: 740px;
+    top: 30px;
+    
+}
+
+#comment-usu1 p {
+    background-color: #abb4b4;
+    font-size: 18px;
+    border-radius: 75px ;
+    border: 4px solid rgb(49, 49, 49);
+    top: 16px;
+    right: 312px;
+    position: absolute;
+    width: 410px;
+    padding: 5px;  
+    color: black; 
+    
+}
+
+#comment-usu2 img {
+    background-color: white;
+    border: 2px solid rgb(34, 33, 33);
+    position: absolute;
+    padding: 3px;
+    border-radius: 50%;
+    display: inline-block; 
+    vertical-align: middle;
+    height: 30px;
+    margin: 3px;
+    width: 30px;
+    right: 740px;
+    top: 85px;
+    
+}
+
+#comment-usu2 p {
+    background-color: #abb4b4;
+    font-size: 18px;
+    border-radius: 75px ;
+    border: 4px solid rgb(49, 49, 49);
+    top: 70px;
+    right: 312px;
+    position: absolute;
+    width: 410px;
+    padding: 5px;  
+    color: black; 
+    
+}
+
+
+.btn-curtir1 {
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    right: 245px;
+    bottom: 253px;
+    transition: 0.6s;
+}
+
+
+.btn-curtir1.curtido {
+    background-color: #007bff;
+}
+
+.btn-curtir1.descurtido {
+    background-color: #8a8989;
+}
+
+#botaoCurtir:hover {
+    right: 240px;
+    bottom: 250px;
+    padding: 12px 22px;
+    border-radius: 30px;
+    background-color: rgb(105, 105, 105);
+}
+
+
+
+

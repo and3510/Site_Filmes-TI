@@ -7,3 +7,19 @@ document.addEventListener('click', function(e){
     estrela.classList.remove('ativo');});
     class_Estrela.add('ativo');}
 });
+
+const botaoCurtir = document.getElementById('botaoCurtir');
+let curtido = false;
+
+botaoCurtir.addEventListener('click', function() {
+    if (curtido) {
+        botaoCurtir.classList.remove('curtido');
+        botaoCurtir.textContent = '👍';
+        curtido = false;
+    } else {
+        botaoCurtir.classList.add('curtido');
+        botaoCurtir.textContent = '👎';
+        curtido = true;
+    }
+});
+

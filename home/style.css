@@ -39,6 +39,8 @@ nav {
     
 }
 
+
+
   
 a {
     font-weight: bold;
@@ -175,8 +177,7 @@ input {
     border-bottom-right-radius: 30px;
 }
 .nav_menu a {
-    margin: 30px;
-    align-content: center;
+    margin: 0px;
 }
 
 .nav_menu img {
@@ -224,3 +225,11 @@ form {
 }
 
 
+#nav1 a:hover {
+    background: none;
+    border: none;
+}
+
+#nav1 a {
+    font-weight: none;
+}
