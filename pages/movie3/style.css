@@ -1,7 +1,7 @@
 header {
     background-color: red;
     border: 1px solid red;
-    height: 80px;
+    height: 74px;
 
 }
 
@@ -23,7 +23,7 @@ footer {
 #coluna1 {
     background-color: blue;
     border: 1px solid blue;
-    width: 300px;
+    width: 325px;
     height: 1000px;
 }
 
@@ -32,4 +32,39 @@ footer {
     border: 1px solid purple;
     width: 1490px;
     height: 1000px;
+}
+#foto{
+    border: 1px solid red;
+    height: 300px;
+    margin-top: 89px;
+}
+img{
+    margin-left: 72px;
+    height: 300px;
+    width: 250px;
+}
+.nome_sinopse{
+border: 1px solid greenyellow;
+width: 570px;
+height: 250px;
+margin-top:50px;
+padding-left: 30px;
+padding-top: 3px;
+
+}
+.opçoes_trailer{
+    border: 1px solid pink;
+    width: 600px;
+    height: 500px;
+    padding-left: 30px;
+}
+.opçoes {
+border: 1px solid red;
+height: 200px;
+width: 100px;
+}
+.trailer{
+    border: 1px solid yellow;
+    height: 100px;
+    width: 100px;
 }
