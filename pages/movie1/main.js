@@ -8,18 +8,21 @@ document.addEventListener('click', function(e){
     class_Estrela.add('ativo');}
 });
 
-const botaoCurtir = document.getElementById('botaoCurtir');
+const likeButtons = document.querySelectorAll('.like');
 let curtido = false;
 
-botaoCurtir.addEventListener('click', function() {
-    if (curtido) {
-        botaoCurtir.classList.remove('curtido');
-        botaoCurtir.textContent = '👍';
-        curtido = false;
-    } else {
-        botaoCurtir.classList.add('curtido');
-        botaoCurtir.textContent = '👎';
-        curtido = true;
-    }
+likeButtons.forEach(botaoCurtir => {
+    botaoCurtir.addEventListener('click', function() {
+        if (curtido) {
+            botaoCurtir.classList.remove('curtido');
+            botaoCurtir.textContent = '👍';
+            curtido = false;
+        } else {
+            botaoCurtir.classList.add('curtido');
+            botaoCurtir.textContent = '👎';
+            curtido = true;
+        }
+    });
 });
+
 
