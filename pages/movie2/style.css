@@ -1,0 +1,242 @@
+.avaliacao{
+    margin-right: 1050px;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+
+}
+.estrela-icon{
+list-style-type: none;
+cursor: pointer;
+color: #ffe500;
+font-size: 25px;
+}
+
+.estrela-icon::before{
+content: "\2605";
+}
+.estrela-icon.ativo ~ .estrela-icon::before{
+content: "\2606";
+}
+.avaliacao:hover .estrela-icon::before{
+content: "\2605";
+}
+.estrela-icon:hover ~ .estrela-icon::before{
+content: "\2606";
+}
+
+.estrela-icon {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#painel {
+    border-top: 5px solid #1db7c2;
+    border-bottom: 5px solid #1db7c2;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #1b1b1b;
+    width: auto;
+    height: 1500px;
+}
+
+#painel h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#painel img {
+    margin-top: 80px;
+    margin-left: 55px;
+    border-radius: 30px;
+    width: 180px;
+    height: 210px;
+}
+#painel div {
+    margin-left: 285px;
+    margin-top: -270px;
+}
+
+#painel h2 {
+    margin-top: 50px;
+    color: antiquewhite;
+}
+
+#painel p {
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+#trailer iframe {
+
+    border-radius: 30px;
+    margin-top: 300px;
+    margin-left: 45px;
+}
+
+#painel ul {
+    margin-top: 5px;
+    margin-left: 93px;
+}
+
+#painel a {
+    display: block;
+}
+
+.infosFilme{
+    position: absolute;
+    height: 150px;
+    right: 800px;
+    top: 660px;
+    width: 170px;
+    
+}
+
+#streamings{
+    align-items: baseline;
+    display: inline-flex;
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 810px;
+    right: 805px;
+}
+
+#streamings img {
+    border-radius: 6px;
+    display: inline-block; 
+    vertical-align: middle;
+    height: 30px;
+    margin: 3px;
+    width: 30px;
+    
+}
+
+
+
+#streamings a {
+    padding-bottom: -100px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+#comment {
+    position: absolute;
+    background-color: #4b4a48;
+    height: 570px;
+    width: 780px;
+    top: 1100px;
+    right: 195px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 6px solid rgb(14, 13, 13);
+}
+
+
+.comentario {
+    height: 35%;
+    background-color: rgb(216, 210, 210);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+
+#comment p {
+    color: #1b1b1b;
+
+}
+
+#comment img {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: -3px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+
+
+.nome-usuario {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.conteudo {
+    margin-top: 15px;
+}
+
+
+#botaoCurtir {
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 3px outset rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    right: 245px;
+    bottom: 253px;
+    transition: 0.6s;
+
+}
+
+#botaoCurtir:hover {
+    right: 240px;
+    bottom: 250px;
+    margin-right: -3px;
+    padding: 12px 22px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 3px outset rgb(0, 0, 0);
+}
+
+.barra-pesquisa {
+    position: absolute;
+    top: 800px;
+    right: 275px;
+    display: flex;
+}
+
+.barra-pesquisa input {
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.barra-pesquisa input:hover {
+    background-color: rgb(255, 255, 255);
+    padding-right: none;
+    top: 800px;
+    right: 275px;
+    margin-left: -30px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    height: 15px;
+    width: 440px;
+}
+.barra-pesquisa button{
+    padding: 3px;
+    border-radius: 45px;  
+    margin-top: 3px;  
+    height: 40px;
+    width: 55px;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+
+.barra-pesquisa button:hover {
+    padding: 5px;
+    margin-right: -3px;
+    border-radius: 45px;  
+    margin-top: 3px;  
+    height: 45px;
+    width: 60px;
+    border: 3px solid black;
+}
+

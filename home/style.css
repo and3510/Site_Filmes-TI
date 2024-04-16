@@ -26,6 +26,7 @@ header {
 nav {
     display: flex;
 }
+
 #nav1 {
     display: flex;
     justify-content: space-around;
@@ -175,7 +176,24 @@ input {
 #nav2 {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+
 }
+#nav2 a {
+    border: none;
+    padding: none;
+    border-radius: 0px;
+    color: none;
+    background-color: transparent;
+}
+
+#nav1 a {
+    border: none;
+    padding: none;
+    border-radius: 0px;
+    color: none;
+    background-color: transparent;
+}
+
 .nav_menu a {
     margin: 0px;
 }
@@ -225,11 +243,3 @@ form {
 }
 
 
-#nav1 a:hover {
-    background: none;
-    border: none;
-}
-
-#nav1 a {
-    font-weight: none;
-}
