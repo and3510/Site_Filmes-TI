@@ -7,7 +7,7 @@ header {
 
 body {
     border: 1px solid purple;
-    width: 1000px;
+    width: 1120px;
     background-color: white;
     margin: auto;
     margin-top: 100px;
@@ -24,14 +24,14 @@ footer {
     background-color: blue;
     border: 1px solid blue;
     width: 325px;
-    height: 1000px;
+    height: 800px;
 }
 
 #coluna2 {
     background-color: purple;
     border: 1px solid purple;
     width: 1490px;
-    height: 1000px;
+    height: 800px;
 }
 #foto{
     border: 1px solid red;
@@ -45,8 +45,8 @@ img{
 }
 .nome_sinopse{
 border: 1px solid greenyellow;
-width: 570px;
-height: 250px;
+width: 680px;
+height: 200px;
 margin-top:50px;
 padding-left: 30px;
 padding-top: 3px;
@@ -54,20 +54,27 @@ padding-top: 3px;
 }
 .opçoes_trailer{
     border: 1px solid pink;
-    width: 600px;
-    height: 500px;
-    padding-left: 30px;
+    width: 780px;
+    height: 320px;
 }
 .opçoes {
 border: 1px solid red;
 height: 200px;
-width: 100px;
+width: 200px;
+margin-right: 20px;
+padding-left: 30px;
 }
 .trailer{
     border: 1px solid yellow;
-    height: 100px;
-    width: 100px;
+    height: 320px;
+    width: 600px;
 }
 .notas p{
 margin-left: 180px;
+}
+.comentario {
+    border: 1px solid orange;
+    height: 30px;
+    width: 30px;
+    margin-left: 236px;
 }
