@@ -59,10 +59,11 @@ padding-top: 3px;
 }
 .opçoes {
 border: 1px solid red;
-height: 320px;
+height: 310px;
 width: 200px;
-margin-right: 20px;
+margin-right: 15px;
 padding-left: 30px;
+line-height: 7px;
 }
 .trailer{
     border: 1px solid yellow;
@@ -91,6 +92,7 @@ margin-left: 180px;
     height: 300px;
     width: 730px;
     background-color: wheat;
+    border-radius: 1%;
 }
 h1{
     color: white;
@@ -100,8 +102,53 @@ p{
     color: white;
 }
 .streamings{
-    border: 1px solid salmon;
-    height: 200px;
-    width: 160px;   
-    margin-top: 1px;
+    border: 1px solid cornflowerblue;
+    width:200px;
+    height: 30px;
+    display: block;
+}
+.streamings img{
+    border: 1px solid violet;
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    
+
+}
+
+#streamings a {
+    margin: 0px;
+    font-size: 15px;
+    
+    
+}
+.informacao{
+    border: 1px solid navy;
+    width: 210px;
+    height: 120px;
+}
+#netflix{
+    position: relative;
+    right: 72px;
+}
+#prime_video{
+    position: relative;
+    bottom: 32px;
+    right: 37px;
+}
+#claro_video{
+    position: relative;
+    bottom: 64px;
+    right: 2px;
+
+}
+#Max {
+    position: relative;
+    left: 33px;
+    bottom: 96px;
+}
+#apple_TV{
+    position: relative;
+    bottom: 128px;
+    left: 68px;
 }
