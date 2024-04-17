@@ -1,0 +1,18 @@
+.container {
+    width: 500px; /* Largura do container */
+    margin: 0 auto; /* Centralizar o container na tela */
+    text-align: center; /* Centralizar o texto dentro do container */
+}
+
+.generos {
+    list-style: none; /* Remover marcadores padrão da lista */
+    padding: 0; /* Remover espaçamento interno da lista */
+}
+
+.generos li {
+    display: inline-block; /* Transformar cada item da lista em um bloco em linha */
+    margin: 5px; /* Adicionar margem entre os itens */
+    padding: 10px; /* Adicionar padding aos itens */
+    border: 1px solid #ccc; /* Adicionar borda aos itens */
+    border-radius: 5px; /* Arredondar os cantos dos itens */
+}

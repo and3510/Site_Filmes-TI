@@ -43,7 +43,17 @@ nav {
 
 
   
-a {
+header a {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 14px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+footer a {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     margin: 0 14px;
@@ -61,7 +71,15 @@ a {
 }
 
 
-a:hover {
+header a:hover {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    color: #0f123f;
+    background-color: #fff;
+}
+
+footer a:hover {
     border: 2px solid #ffffff;
     padding: 10px;
     border-radius: 30px;
@@ -111,11 +129,12 @@ a:hover {
 }
 
 
+
 #contact {
     background-color: #3a3838;
     border-top: 2px solid #3a3838;
     width: auto;
-    height: 500px;
+    height: 430px;
     border-bottom: 5px solid #1db7c2;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -152,8 +171,15 @@ form {
 }
 
 input {
-    
     padding: 2px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b6eef1;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 
@@ -242,4 +268,26 @@ form {
     width: 20px;
 }
 
+
+#enviar-form button {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 14px;
+    text-decoration: none;
+    color: #0f123f;
+    font-size: 24px;
+    transition: 0.2s;
+    border: #fff;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+#enviar-form button:hover {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    color: #0f123f;
+    background-color: #fff;
+}
 
