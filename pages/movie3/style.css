@@ -92,10 +92,16 @@ margin-left: 180px;
     width: 730px;
     background-color: wheat;
 }
-.opçoes h9 ,h1{
+h1{
     color: white;
     font-weight: bold;
 }
 p{
     color: white;
+}
+.streamings{
+    border: 1px solid salmon;
+    height: 200px;
+    width: 160px;   
+    margin-top: 1px;
 }
