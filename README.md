@@ -1,21 +1,24 @@
 # Projeto de um Blog de filmes:
 
 ## Integrantes:
-- and3510
-- gustavodovale
-- whosbea
-- cristovam10000
+   - and3510
+   - gustavodovale
+   - whosbea
+   - cristovam10000
 
 ## Requisitos:
-- Menu Principal;
-- Uma página para cada filme;
-- Mesmo estilo de cores em todos as páginas.
+   - Menu Principal;
+   - Uma página para cada filme;
+   - Mesmo estilo de cores em todos as páginas;
+   - Modo escuro e claro;
+   - Pagina de formulário;
+   - Audio feito em IA para explicação do site.
 
 ## Tarefas:
-- Anderson → Fazer o homepage, 2 duas páginas de filme;
-- Gustavo →  2 duas páginas de filme;
-- Beatriz → 2 duas páginas de filme;
-- Cristovam → 2 duas páginas de filme.
+   - Anderson → Fazer o homepage, 2 duas páginas de filme, formulario;
+   - Gustavo →  2 duas páginas de filme;
+   - Beatriz → 2 duas páginas de filme;
+   - Cristovam → 2 duas páginas de filme.
 
 
 ## Instruções:
