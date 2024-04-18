@@ -73,7 +73,7 @@ h1{
     position: absolute;
     height: 0px;
     left: 562px;
-    top: 380px;
+    top: 360px;
 }
 
 #generos{
@@ -122,7 +122,7 @@ h1{
 #trailer{
     position: absolute;
     left: 800px;
-    top: 390px;
+    top: 360px;
 }
 
 article{
@@ -130,26 +130,27 @@ article{
     width: 676px;
     height: 0px;
     left: 562px;
-    top: 750px;
+    top: 720px;
 }
 
 footer {
-    position: absolute;
-    width: 1481px;
-    height: 77px;
-    left: 0px;
-    top: 947px;
-
-    background-color: #CCCACA;
-}
-
-footer {
-    height: 45px;
+    height: 200px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 15px 45px;
- 
+    position: absolute;
+    width: 1390px;
+    top: 900px;
+
+    background-color: #CCCACA;
+
+}
+
+.devs{
+position: absolute;
+width: 387px;
+height: 0px;
+
 }
 
 #contatos a:hover {
