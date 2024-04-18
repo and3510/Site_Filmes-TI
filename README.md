@@ -13,6 +13,8 @@
    - Modo escuro e claro;
    - Pagina de formulário;
    - Audio feito em IA para explicação do site.
+   - Avaliação de estrelas
+   - Avaliação de comentario com like e deslike
 
 ## Tarefas:
    - Anderson → Fazer o homepage, 2 duas páginas de filme, formulario;
