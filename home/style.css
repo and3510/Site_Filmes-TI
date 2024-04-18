@@ -1,9 +1,13 @@
 body { 
-    background-color: #0f123f;
+    background-color: rgb(241, 232, 232);
+}
+
+.dark-mode {
+    background-color: #222;
 }
  
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -16,12 +20,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 45px;
-    background-color: #0f123f;
-    color: #fff;
+    background-color: rgb(241, 232, 232);
     
 }
 
-  
 
 nav {
     display: flex;
@@ -48,9 +50,24 @@ header a {
     font-family: 'Courier New', Courier, monospace;
     margin: 0 14px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     transition: 0.2s;
+    
+}
+
+header img {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    margin-top: -6px;
+    background-color: rgb(241, 232, 232);
+
+}
+
+header img:hover {
+    padding: 3px;
+    background-color: rgb(241, 232, 232);
 }
 
 footer a {
@@ -58,13 +75,13 @@ footer a {
     font-family: 'Courier New', Courier, monospace;
     margin: 0 14px;
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 18px;
     transition: 0.2s;
 }
 
 #menu img:hover{
-    border: 5px solid #bfc0c4;
+    border: 5px solid #302d2d;
     margin: 7px;
     border-radius: 30px;
     width: 200px;
@@ -72,10 +89,10 @@ footer a {
 
 
 header a:hover {
-    border: 2px solid #ffffff;
+    border: 2px solid black;
     padding: 10px;
     border-radius: 30px;
-    color: #0f123f;
+    color: black;
     background-color: #fff;
 }
 
@@ -83,10 +100,10 @@ footer a:hover {
     border: 2px solid #ffffff;
     padding: 10px;
     border-radius: 30px;
-    color: #0f123f;
+    color: #000000;
     background-color: #fff;
+    border: 2px solid #000000;
 }
-
 
 
 
@@ -95,8 +112,8 @@ footer a:hover {
     width: auto;
     height: 300px;
     align-content: center;
-    background-color: rgb(41, 31, 31);
-    border-top: 5px solid #1db7c2;
+    background-color: rgb(143, 143, 143);
+    border-top: 5px solid #132122;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     transition: 0.2;
@@ -107,40 +124,26 @@ footer a:hover {
     display: flex;
     width: 130px;
     padding: 30px;
-    border: 3px solid rgb(35, 204, 216);
+    border: 3px solid #132122;
     border-radius: 30px;
-    background-color: rgb(63, 60, 57);
+    background-color: rgb(212, 210, 208);
     
 }
 #home p {
     font-weight: bold;
-    color: antiquewhite;
+    color: rgb(26, 25, 25);
     font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
 }
 #menu {
-    background-color: #006168;
-    border: 2px solid #006168;
+    background-color: #909b9b;
+    border-top: 1px solid #909b9b;
     width: auto;
     height: 375px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-#contact {
-    background-color: #3a3838;
-    border-top: 2px solid #3a3838;
-    width: auto;
-    height: 430px;
-    border-bottom: 5px solid #1db7c2;
+    border-bottom: 5px solid #132122;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    
 }
-
 
 
 
@@ -150,37 +153,16 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 15px 45px;
-    background-color: #0f123f;
-    color: #fff;
+    background-color: rgb(241, 232, 232);
  
 }
 
-#footer a:hover {
-    background-color: #ffffff;
-
-}
 
 #footer {
     margin-left: -40px;
 }
 
-form {
-    color: white;
-    margin-bottom: 2px;
-    display: block;
-}
 
-input {
-    padding: 2px;
-}
-
-label {
-    font-size: 18px;
-    font-weight: bold;
-    color: #b6eef1;
-    font-family: 'Courier New', Courier, monospace;
-    
-}
 
 
 .nav_menu {
@@ -230,64 +212,156 @@ label {
     transition: 0.2s;
 }
 
-#menu {
-    flex-wrap: wrap;
-    flex-direction: row;
-    transition: 0.2s;
-}
-input {
-    background-color: #abb4b4;
+header button {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #000000;
     font-size: 18px;
-    border-radius: 75px ;
-    border: 4px solid rgb(255, 255, 255);
-    margin: 5px;
     transition: 0.2s;
-    padding: 5px;
+    border: 2px solid rgb(241, 232, 232);
+    border-radius: 20px;
+    margin: 0 14px;
+    background-color: rgb(241, 232, 232);
+    margin-top: -2px;
 
 }
 
-input:hover {
-    border: 4px solid rgb(80, 80, 82);
-    background-color: #ffffff;
-    padding: 11px;
+header button:hover {
+    border: none;
+    padding: 10px;
     border-radius: 30px;
-    color: #eb1717;
-    color: rgb(0, 0, 0);
-
+    color: #000000;
+    background-color: rgb(241, 232, 232);
 }
 
 
-form {
-    padding-top: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-    
-}
 
 #footer img {
     width: 20px;
 }
 
 
-#enviar-form button {
+
+
+
+.dark-mode header {
+    background-color: #222;
+    color: #000000;
+    
+}
+
+
+.dark-mode header a {
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode header a:hover {
+    border: 2px solid #c9c7c7;
+    color: #f2f3ff;
+    background-color: #3c3c3d;
+}
+
+
+.dark-mode footer {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+    background-color: #222;
+ 
+}
+
+.dark-mode footer a {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     margin: 0 14px;
     text-decoration: none;
-    color: #0f123f;
-    font-size: 24px;
+    color: #ffffff;
+    font-size: 18px;
     transition: 0.2s;
-    border: #fff;
-    background-color: #fff;
-    border-radius: 30px;
-    padding: 5px;
 }
 
-#enviar-form button:hover {
-    border: 2px solid #ffffff;
-    padding: 10px;
-    border-radius: 30px;
-    color: #0f123f;
-    background-color: #fff;
+.dark-mode #footer a:hover {
+    background-color: #3c3c3d;
+    border: 2px solid ;
+    border: 2px solid #c9c7c7;
+
 }
 
+.dark-mode h1 {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.dark-mode #menu img:hover{
+    border: 5px solid #d1cece;
+}
+
+
+.dark-mode #home {
+    background-color: rgb(66, 66, 66);
+    border-top: 5px solid #56797c;
+}
+
+.dark-mode #home img  {
+    border: 3px solid #56797c;
+    background-color: rgb(63, 59, 53);
+    
+}
+.dark-mode #home p {
+    color: rgb(221, 221, 221);
+}
+.dark-mode #menu {
+    background-color: rgb(117, 117, 117);
+    border: 2px solid rgb(117, 117, 117);
+}
+
+
+
+.dark-mode button {
+    color: #ffffff;
+    border: #7e7e7e;
+    background-color: #222;
+}
+
+.dark-mode button:hover {
+    border: 2px solid #7e7e7e;
+    color: #ffffff;
+    background-color: #414040;
+}
+
+.dark-mode header img {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+    background-color: rgb(241, 232, 232);
+    border-radius: 50%;
+
+}
+
+.dark-mode header img:hover {
+    padding: 3px;
+    background-color: rgb(241, 232, 232);
+    border-radius: 100%;
+}
+
+.dark-mode header button {
+    color: #ffffff;
+    border: #7e7e7e;
+    background-color: #222;
+    padding: 4px;
+    transition: 0.2s;
+}
+
+.dark-mode header button:hover {
+    border: none;
+    color: none;
+    background-color: #222;
+    padding: 7px;
+
+}

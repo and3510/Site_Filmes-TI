@@ -32,13 +32,13 @@ content: "\2606";
 
 
 #painel {
-    border-top: 5px solid #1db7c2;
-    border-bottom: 5px solid #1db7c2;
+    border-top: 5px solid #132122;
+    border-bottom: 5px solid #132122;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    background-color: #1b1b1b;
+    background-color: rgb(143, 143, 143);
     width: auto;
     height: 1400px;
 }
@@ -57,7 +57,7 @@ content: "\2606";
     border-radius: 30px;
     width: 180px;
     height: 230px;
-    border: 3px solid rgb(146, 146, 146);
+    border: 3px solid #132122;
 }
 
 #painel div {
@@ -67,7 +67,7 @@ content: "\2606";
 
 #painel h2 {
     margin-top: 50px;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
 }
 
 #sinopse p {
@@ -82,7 +82,8 @@ content: "\2606";
 #painel p {
     padding-right: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ffffff;
+    color: rgb(0, 0, 0);
+
 }
 
 #painel nav {
@@ -168,7 +169,6 @@ content: "\2606";
     border: 2px solid #ffffff;
     padding: 10px;
     border-radius: 30px;
-    color: #0f123f;
     background-color: #fff;
 }
 
@@ -246,7 +246,7 @@ content: "\2606";
 .barra-pesquisa {
     position: absolute;
     top: 800px;
-    right: 275px;
+    right: 230px;
     display: flex;
 }
 
@@ -273,9 +273,10 @@ content: "\2606";
     border-radius: 45px;  
     margin-top: 3px;  
     height: 40px;
-    width: 55px;
+    width: 70px;
     transition: 0.2s;
     border: 1px solid black;
+
 }
 
 .barra-pesquisa button:hover {
@@ -284,9 +285,69 @@ content: "\2606";
     border-radius: 45px;  
     margin-top: 3px;  
     height: 45px;
-    width: 60px;
+    width: 78px;
     border: 3px solid black;
 }
 
 
-  
+.dark-mode #painel {
+    background-color: rgb(66, 66, 66);
+    border: 2px solid rgb(66, 66, 66);
+    border-top: 5px solid #56797c;
+    border-bottom: 5px solid #56797c;
+}
+
+.dark-mode #streamings a {
+    color: rgb(255, 255, 255)
+}
+
+.dark-mode #painel p {
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.dark-mode #comment {
+    position: absolute;
+    background-color: #b9b9b9;
+    height: 570px;
+    width: 780px;
+    top: 1100px;
+    right: 195px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 6px solid rgb(212, 212, 212);
+}
+
+
+.dark-mode .comentario {
+    height: 35%;
+    background-color: rgb(156, 156, 156);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+
+.dark-mode #comment p {
+    color: #ffffff;
+
+}
+
+.dark-mode #comment img {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: -3px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+
+.dark-mode #painel h2 {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
