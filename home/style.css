@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 45px;
-    background-color: rgb(241, 232, 232);
+    background-color: transparent;
     
 }
 
@@ -153,7 +153,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 15px 45px;
-    background-color: rgb(241, 232, 232);
+    background-color: transparent;
  
 }
 
@@ -246,7 +246,7 @@ header button:hover {
 
 
 .dark-mode header {
-    background-color: #222;
+    background-color: transparent;
     color: #000000;
     
 }
@@ -269,7 +269,7 @@ header button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 15px 45px;
-    background-color: #222;
+    background-color: transparent;
  
 }
 
