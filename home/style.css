@@ -139,7 +139,7 @@ footer a:hover {
     background-color: #909b9b;
     border-top: 1px solid #909b9b;
     width: auto;
-    height: 375px;
+    height: 395px;
     border-bottom: 5px solid #132122;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -158,13 +158,10 @@ footer {
 }
 
 
-#footer {
+#footer {   
     margin-left: -40px;
 }
-
-
-
-
+    
 .nav_menu {
     display: flex;
     flex-direction: row;
@@ -240,6 +237,17 @@ header button:hover {
 #footer img {
     width: 20px;
 }
+
+#footer-title-1 {
+    margin-left: 153px;
+    display: inline-flex;
+}
+
+#footer-title-2 {
+    margin-left: 377px;
+    display: inline-flex;
+}
+
 
 
 
@@ -364,4 +372,10 @@ header button:hover {
     background-color: #222;
     padding: 7px;
 
+}
+
+.dark-mode #footer img {
+    border-radius: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
 }
