@@ -83,7 +83,7 @@ footer a {
 #menu img:hover{
     border: 5px solid #302d2d;
     margin: 7px;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 200px;
 }
 
@@ -205,7 +205,8 @@ footer {
 
 .nav_menu img {
     width: 200px;
-    border-radius: 15px;
+    height: 125px;
+    border-radius: 10px;
     transition: 0.2s;
 }
 

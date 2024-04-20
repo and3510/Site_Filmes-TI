@@ -1,7 +1,7 @@
 #contact {
     background-color: rgb(100, 97, 97);
     width: 500px;
-    height: 475px;
+    height: 470px;
     border-bottom: 5px solid #132122;
     border-top: 5px solid #132122;
     border-right: 6px solid #132122;
@@ -11,9 +11,10 @@
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 
 }
 
@@ -21,11 +22,25 @@
     margin-top: 7px;
 }
 
+#footer-title-1 {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#footer-title-2 {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    
+}
 
 footer {
     position: absolute;
-    top: 10%;
-    left: 51%;
+    top: 110%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
