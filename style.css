@@ -1,0 +1,85 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para a seção de destaque */
+#destaque {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#destaque img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Estilos para a lista de filmes */
+#filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filme {
+    width: 25%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filme img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o formulário */
+#formulario {
+    text-align: center;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#formulario input, #formulario select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#formulario button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    #filmes .filme {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    #filmes .filme {
+        width: 100%;
+    }
+}

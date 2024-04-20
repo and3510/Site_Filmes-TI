@@ -6,6 +6,7 @@ body {
     background-color: #222;
 }
  
+/* Parte do Cabeçalho */
 h1 {
     color: rgb(0, 0, 0);
     font-size: 25px;
@@ -41,6 +42,11 @@ nav {
     align-items: center;
     
 }
+
+#home audio::-webkit-media-controls-panel {
+    background-color: #ffffff;
+}
+
 
 
 
@@ -139,11 +145,15 @@ footer a:hover {
     background-color: #909b9b;
     border-top: 1px solid #909b9b;
     width: auto;
-    height: 395px;
     border-bottom: 5px solid #132122;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 395px;
+    max-height: 1200px;
 }
+
 
 
 
@@ -154,8 +164,12 @@ footer {
     align-items: center;
     padding: 15px 45px;
     background-color: transparent;
+    flex-wrap: wrap;
+    min-height: 45px;
+    max-height: 300px;
  
 }
+
 
 
 #footer {   
@@ -174,15 +188,7 @@ footer {
     
 }
 
-#nav1 {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-#nav2 {
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-
-}
+/*
 #nav2 a {
     border: none;
     padding: none;
@@ -198,6 +204,7 @@ footer {
     color: none;
     background-color: transparent;
 }
+*/
 
 .nav_menu a {
     margin: 0px;
@@ -379,4 +386,8 @@ header button:hover {
     border-radius: 100%;
     background-color: #ffffff;
     border: 1px solid #ffffff;
+}
+
+.dark-mode #home audio::-webkit-media-controls-panel {
+    background-color: #adadad;
 }
