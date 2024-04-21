@@ -4,7 +4,7 @@
    - and3510
    - gustavodovale
    - whosbea
-   - cristovam
+   - cristovam10000
 
 ## Requisitos:
    - Menu Principal;
@@ -13,17 +13,11 @@
    - Modo escuro e claro;
    - Pagina de formulário;
    - Audio feito em IA para explicação do site.
-   - Avaliaçao por estrelas
-   - Um video
-   - Uma foto
-   - Comentarios
-   - gêneros do filme
-   - Sinopse
-   - Titulo
-   - Mesmo estilo de cores em todos as páginas.
+   - Avaliação de estrelas
+   - Avaliação de comentario com like e deslike
 
 ## Tarefas:
-   - Anderson → Fazer o homepage, 2 duas páginas de filme e formulário;
+   - Anderson → Fazer o homepage, 2 duas páginas de filme, formulario;
    - Gustavo →  2 duas páginas de filme;
    - Beatriz → 2 duas páginas de filme;
    - Cristovam → 2 duas páginas de filme.
