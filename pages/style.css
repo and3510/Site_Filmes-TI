@@ -101,6 +101,7 @@ content: "\2606";
     position: absolute;
     bottom: 275px;
     width: 835px;
+    height: 170px;
 
 }
 
@@ -117,7 +118,7 @@ content: "\2606";
     width: 170px; 
     margin: 0 auto; 
     text-align: center; 
-    margin-right: 1082px;
+    margin-right: 1020px;
     margin-top: -6px;
     background-color: #d8d2d2;
     border-bottom-left-radius: 10px;
@@ -160,7 +161,7 @@ content: "\2606";
 .infosFilme{
     position: absolute;
     height: 150px;
-    right: 820px;
+    right: 765px;
     top: 675px;
     width: 215px;
     
@@ -173,7 +174,7 @@ content: "\2606";
     width: 170px;
     height: 130px;
     top: 810px;
-    right: 865px;
+    right: 815px;
 }
 
 #streamings img {
@@ -210,7 +211,7 @@ content: "\2606";
     height: 570px;
     width: 780px;
     top: 1120px;
-    right: 245px;
+    right: 200px;
     border-radius: 30px;
     padding: 15px;
     border: 6px solid rgb(14, 13, 13);
