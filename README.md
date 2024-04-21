@@ -13,6 +13,14 @@
    - Modo escuro e claro;
    - Pagina de formulário;
    - Audio feito em IA para explicação do site.
+   - Avaliaçao por estrelas
+   - Um video
+   - Uma foto
+   - Comentarios
+   - gêneros do filme
+   - Sinopse
+   - Titulo
+   - Mesmo estilo de cores em todos as páginas.
 
 ## Tarefas:
    - Anderson → Fazer o homepage, 2 duas páginas de filme e formulário;
