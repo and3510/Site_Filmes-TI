@@ -60,7 +60,7 @@ content: "\2606";
     border-bottom-right-radius: 30px;
     background-color: rgb(143, 143, 143);
     width: auto;
-    height: 1375px;
+    height: 1390px;
     
 }
 
@@ -99,7 +99,8 @@ content: "\2606";
     margin-right: 100px;
     left: 300px;
     position: absolute;
-    bottom: 250px;
+    bottom: 275px;
+    width: 835px;
 
 }
 
@@ -116,7 +117,7 @@ content: "\2606";
     width: 170px; 
     margin: 0 auto; 
     text-align: center; 
-    margin-right: 1020px;
+    margin-right: 1082px;
     margin-top: -6px;
     background-color: #d8d2d2;
     border-bottom-left-radius: 10px;
@@ -142,7 +143,7 @@ content: "\2606";
 
 #trailer iframe {
     border-radius: 10px;
-    margin-top: 160px;
+    margin-top: 190px;
     margin-left: 4px;
     border: 5px solid rgb(216, 210, 210);
 }
@@ -159,7 +160,7 @@ content: "\2606";
 .infosFilme{
     position: absolute;
     height: 150px;
-    right: 755px;
+    right: 820px;
     top: 675px;
     width: 215px;
     
@@ -172,7 +173,7 @@ content: "\2606";
     width: 170px;
     height: 130px;
     top: 810px;
-    right: 805px;
+    right: 865px;
 }
 
 #streamings img {
@@ -208,8 +209,8 @@ content: "\2606";
     background-color: #4b4a48;
     height: 570px;
     width: 780px;
-    top: 1090px;
-    right: 195px;
+    top: 1120px;
+    right: 245px;
     border-radius: 30px;
     padding: 15px;
     border: 6px solid rgb(14, 13, 13);
@@ -351,15 +352,8 @@ content: "\2606";
 
 
 .dark-mode #comment {
-    position: absolute;
-    background-color: #b9b9b9;
-    height: 570px;
-    width: 780px;
-    top: 1080px;
-    right: 195px;
-    border-radius: 30px;
-    padding: 15px;
-    border: 6px solid rgb(212, 212, 212);
+    background-color: #858585;
+    border: 6px solid #56797c;
 }
 
 
@@ -392,50 +386,6 @@ content: "\2606";
 .dark-mode #painel h2 {
     margin-top: 30px;
     color: rgb(255, 255, 255);
-}
-
-.dark-mode #painel nav {
-    width: 190px; 
-    margin: 0 auto; 
-    text-align: center; 
-    margin-right: 1010px;
-    margin-top: -1px;
-    background-color: rgb(216, 210, 210);
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    padding: 10px;
-    margin-bottom: -5px;
-}
-
-.dark-mode #painel nav p { 
-    border-radius: 30px;
-    margin: 0 auto;
-    border: 1px solid rgb(59, 59, 68);
-    background-color: #4371aa;
-    border-radius: 30px;
-    width: 35px;
-    align-items: center;
-    padding-right: 13px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 7px; 
-} 
-
-
-.dark-mode #painel nav {
-    width: 170px; 
-    margin: 0 auto; 
-    text-align: center; 
-    margin-right: 1020px;
-    margin-top: -6px;
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 10px;
-    margin-bottom: -5px;
 }
 
 .dark-mode #painel nav p { 
