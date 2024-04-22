@@ -1,0 +1,151 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: black;
+}
+/* menu */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+nav.menu{
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* home */
+#painel{
+    border-top: 5px solid #132122;
+    border-bottom: 5px solid #132122;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(143, 143, 143);
+    width: auto;
+    height: 1375px;
+    
+
+}
+.conteudo{
+    margin: 5%;
+    margin-right: -15%;
+}
+.capa_do_filme{
+    border: 10px solid #d8d2d2;
+}
+.generos{
+    background-color: #d8d2d2;
+    margin-top: -3px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.genero{
+    border-radius: 50px ;
+    padding: 2px;
+    background-color: blue;
+}
+
+.sobre .titulo_5{
+    margin-left: 4%;
+    margin-top: -2%;
+    margin-bottom: 2% ;
+        
+}
+
+
+
+#sinopse{
+    background-color: #d8d2d2;
+    padding: 0.3%;
+    padding-left: 2% ;
+    padding-right: 2%;
+    margin-left: 3%;
+    margin-right: 35%;
+    margin-top: -1%;
+    border-radius: 30px;
+
+}
+.conteudo{
+    display: flex;
+    gap: 30px;
+}
+
+.gambiara{
+    display: flex;
+}
+#trailer{
+    margin-top: -10%;
+    margin-left: -82%;
+}
+.infos{
+    background-color: #d8d2d2;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-right: 85%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 85%;
+
+}
+
+#trailer iframe {
+    border-radius: 10px;
+    margin-top: 190px;
+    margin-left: 4px;
+    border: 5px solid rgb(216, 210, 210);
+}
+
+#streamings{
+    align-items: baseline;
+    display: inline-flex;
+    width: 170px;
+    height: 50px;
+}
+
+
+
+#streamings img{
+    border-radius: 6px;
+    display: inline-block; 
+    vertical-align: middle;
+    height: 30px;
+    margin: 3px;
+    width: 30px;
+    border: none;
+}
+
+#streamings a {
+    padding-bottom: -100px;
+    margin: 0px;
+    font-size: 15px;
+    transition: 0.2s;
+    color: black;
+}
+
+#streamings a:hover {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+#comment{
+    background-color:#4b4a48;
+    padding-left: 5%;
+    padding-right: 12% ;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: -75%;
+    border-radius: 30px; 
+}
