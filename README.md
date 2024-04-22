@@ -33,3 +33,18 @@
    - 1 Formulário;
    - Estruturação do HTML com <header> <section> <footer> etc;
    - Uso de 3 eventos de interação com o usuario com javascript DOM.
+
+
+## Imagens do Site:
+
+   ### Homepage:
+   ![alt text](images-site/image-2.png)
+   -----
+   ### Página do Filme:
+   ![alt text](images-site/image.png)
+   ------
+   ### Página da Sugestão:
+   ![alt text](images-site/image-1.png)
+   ------
+   ### Página sobre o Site:
+   ![alt text](images-site/image-3.png)
