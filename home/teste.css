@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+body{
+    font-family: "Poppins",sans-serif;
+    margin: 2% ; /*para deichar no centro o body*/
+    max-width: 100%;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+}
+
+/* home */
+
+.menu a{
+    font-size: 40px;
+    color: aliceblue;
+    
+}
+
+/* conteudo */
+section.corpo_conteudo{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    align-items: center;
+}
+
+/* capa do filme */
+section.capa_do_filme{
+    
+}
+.capa_do_filme img{
+    min-width: 300px;
+    min-height: 150px;
+    margin: 3%;
+}
+
+/* informaçoes do filme */
+section.informacao_do_filme{
+}
+.titulo_descricao{
+    font-size: 35px;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+.paragrafo_descricao{
+    font-size: 20px;
+}
+
+/* indormacoes do triller */
+section.trailer{
+    margin: 50px;
+}
+.info_triler{
+    display: flex;
+}
+.info_titulo{
+    font-size: 20px;
+    color: aqua;
+}
+.streamings{
+    display: flex;
+    gap: 5px;
+    margin: 10px 95px;
+    margin-left: 1%;  
+}
+
+#netflix{
+    width: 50px;
+    height: 37px;
+    border: 1px solid slateblue;
+    border-radius: 25%;
+}
+#prime_video{
+    width: 50px;
+    height: 37px;
+    border: 1px solid slateblue;
+    border-radius: 25%;
+}
+#claro_video{
+    width: 50px;
+    height: 38px;
+    border: 1px solid slateblue;
+    border-radius: 25%;
+}
+#Max{
+    width: 50px;
+    height: 37px;
+    border: 1px solid slateblue;
+    border-radius: 25%;
+}
+#apple_TV{
+    width: 50px;
+    height: 37px;
+    border: 1px solid slateblue;
+    border-radius: 25%;
+
+}
+.video_logos{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+
+}
+.item_video{
+    
+}
+
+/* comentarios */
+section.comentario{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    margin: 5%;
+    width: 800px;
+    height: 500px;
+    border: 2px solid slateblue;
+    border-radius: 30px;
+}
+
+.titulo_do_comentario{
+    margin-top:10%;
+}
