@@ -1,3 +1,4 @@
+/* Nota do filme com Estrelas */
 .avaliacao{
     margin-right: 1050px;
     margin-left: 50px;
@@ -25,23 +26,36 @@ content: "\2606";
 content: "\2605";
 }
 
-
 .estrela-icon {
     padding: 0px;
     margin: 0px;
 }
 
+/* Parte da sinopse do filme */
 #sinopse p {
+    margin-right: 100px;
+    left: 300px;
+    position: absolute;
+    bottom: 275px;
+    width: 835px;
+    height: 170px;
     padding: 20px;
     border-radius: 30px;
     font-weight: 500;
 }
+
+
 
 .infosFilme {
     border-radius: 30px;
     padding: 6px;
     padding-bottom: 45px;
     background-color: rgb(216, 210, 210);
+    position: absolute;
+    height: 150px;
+    right: 765px;
+    top: 675px;
+    width: 215px;
 }
 
 
@@ -56,6 +70,11 @@ content: "\2605";
     width: auto;
     height: 1390px;
     
+}
+.dark-mode #painel {
+    background-color: rgb(66, 66, 66);
+    border-top: 5px solid #56797c;
+    border-bottom: 5px solid #56797c;
 }
 
 #painel h1 {
@@ -89,15 +108,11 @@ content: "\2605";
     color: rgb(0, 0, 0);
 }
 
-#sinopse p {
-    margin-right: 100px;
-    left: 300px;
-    position: absolute;
-    bottom: 275px;
-    width: 835px;
-    height: 170px;
-
+.dark-mode #painel h2 {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
 }
+
 
 
 #painel p {
@@ -105,6 +120,22 @@ content: "\2605";
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     background-color: rgb(216, 210, 210);
+
+}
+
+#painel ul {
+    margin-top: 5px;
+    margin-left: 93px;
+}
+
+#painel a {
+    display: block;
+}
+
+.dark-mode #painel p {
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -135,6 +166,18 @@ content: "\2605";
 } 
 
 
+.dark-mode #painel nav p { 
+    border-radius: 30px;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 35px;
+    align-items: center;
+    padding-right: 13px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 7px; 
+    border: none;
+} 
 
 #trailer iframe {
     border-radius: 10px;
@@ -143,23 +186,6 @@ content: "\2605";
     border: 5px solid rgb(216, 210, 210);
 }
 
-#painel ul {
-    margin-top: 5px;
-    margin-left: 93px;
-}
-
-#painel a {
-    display: block;
-}
-
-.infosFilme{
-    position: absolute;
-    height: 150px;
-    right: 765px;
-    top: 675px;
-    width: 215px;
-    
-}
 
 #streamings{
     align-items: baseline;
@@ -328,22 +354,13 @@ content: "\2605";
 }
 
 
-.dark-mode #painel {
-    background-color: rgb(66, 66, 66);
-    border-top: 5px solid #56797c;
-    border-bottom: 5px solid #56797c;
-}
+
 
 .dark-mode #streamings a {
     color: rgb(255, 255, 255)
 }
 
-.dark-mode #painel p {
-    padding-right: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
 
-}
 
 
 .dark-mode #comment {
@@ -378,23 +395,6 @@ content: "\2605";
     margin-bottom: 7px;
 }
 
-.dark-mode #painel h2 {
-    margin-top: 30px;
-    color: rgb(255, 255, 255);
-}
-
-.dark-mode #painel nav p { 
-    border-radius: 30px;
-    margin: 0 auto;
-    border-radius: 30px;
-    width: 35px;
-    align-items: center;
-    padding-right: 13px;
-    padding: 8px;
-    font-weight: bold;
-    font-size: 7px; 
-    border: none;
-} 
 
 .dark-mode #comment span {
     color: white;

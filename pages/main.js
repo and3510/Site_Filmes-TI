@@ -1,21 +1,22 @@
-
+// Algoritmo de Like e Deslike
 const likeButtons = document.querySelectorAll('.like');
 let curtido = false;
 
-likeButtons.forEach(botaoCurtir => {
-    botaoCurtir.addEventListener('click', function() {
+likeButtons.forEach(Curtir => {
+    Curtir.addEventListener('click', function() {
         if (curtido) {
-            botaoCurtir.classList.remove('curtido');
-            botaoCurtir.textContent = '👍';
+            Curtir.classList.remove('curtido');
+            Curtir.textContent = '👍';
             curtido = false;
         } else {
-            botaoCurtir.classList.add('curtido');
-            botaoCurtir.textContent = '👎';
+            Curtir.classList.add('curtido');
+            Curtir.textContent = '👎';
             curtido = true;
         }
     });
 });
 
+// Botão de ligar ou desligar o modo Noturno
 const toggleThemeButton = document.getElementById('toggleThemeButton');
 const bodyElement = document.body;
 
@@ -31,7 +32,7 @@ toggleThemeButton.addEventListener('click', function() {
     }
 });
 
-
+// Botão de Alerta de envio de sugestão
 function mostrarAlerta() {
     alert("Você Enviou uma Sugestão" );
 }

@@ -1,4 +1,21 @@
-#contact {
+/* Seção de Informações  */
+#sobre {
+    background-color: rgb(216, 210, 210);
+    border-radius: 30px;
+    width: 475px;
+    height: 380px;
+    margin-top: -10px;
+    padding-top: 15px;
+}
+
+/* Modo Noturno */
+.dark-mode #sobre {
+    background-color: rgb(117, 117, 117);
+}
+
+
+/* Div onde está as informações */
+#about {
     background-color: rgb(100, 97, 97);
     width: 500px;
     height: 470px;
@@ -14,14 +31,36 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
 }
 
-#contact h1 {
+/* Modo Noturno */
+.dark-mode #about {
+    background-color: rgb(88, 88, 88);
+    border-top: 5px solid #56797c;
+    border-bottom: 5px solid #56797c;
+    border-right: 6px solid #56797c;
+    border-left: 2px solid #56797c;
+}
+
+
+/* Posição do Titulo na seção */
+#about h1 {
     margin-top: 7px;
 }
 
+
+/* Cor das Informações */ 
+#sobre p {
+    background-color: #fff;
+}
+
+/* Modo Noturno */
+.dark-mode #sobre p {
+    color: rgb(255, 255, 255);
+    background-color: #888787;
+}
+
+/* Posição do Rodapé na página */
 #footer-title-1 {
     position: absolute;
     top: 100%;
@@ -42,178 +81,4 @@ footer {
     top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-#sobre {
-    background-color: rgb(216, 210, 210);
-    border-radius: 30px;
-    width: 475px;
-    height: 380px;
-    margin-top: -10px;
-    padding-top: 15px;
-}
-
-
-.transition-all button {
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-}
-
-button:hover {
-    border: 2px solid #080808;
-    height: 50px;
-    padding: 8px;
-    border-radius: 30px;
-    color: #000000;
-    background-color: #fff;
-}
-
-#sobre p {
-    background-color: #fff;
-}
-
-.dark-mode {
-    background-color: #222;
-}
- 
-
-.dark-mode header {
-    background-color: #222;
-    color: #000000;
-    
-}
-
-
-.dark-mode header a {
-    color: rgb(255, 255, 255);
-}
-
-.dark-mode header a:hover {
-    border: 2px solid #c9c7c7;
-    color: #f2f3ff;
-    background-color: #3c3c3d;
-}
-
-
-    
-.dark-mode input {
-    background-color: #e2e1e1;
-    border: 4px solid rgb(41, 41, 41);
-    color: rgb(0, 0, 0);
-
-}
-
-.dark-mode input:hover {
-    border: 4px solid rgb(80, 80, 82);
-    background-color: #363232;
-    color: rgb(255, 255, 255);
-
-}
-
-.dark-mode form {
-    color: rgb(255, 255, 255);
-}
-
-
-.dark-mode label {
-    color: #e9e9e9;
-    
-}
-
-.dark-mode footer {
-    height: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 45px;
-    background-color: transparent;
- 
-}
-
-.dark-mode footer a {
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0 14px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 18px;
-    transition: 0.2s;
-}
-
-.dark-mode #footer a:hover {
-    background-color: #3c3c3d;
-    border: 2px solid ;
-    border: 2px solid #c9c7c7;
-
-}
-
-.dark-mode h1 {
-    color: rgb(255, 255, 255);
-}
-
-
-.dark-mode #contact {
-    background-color: rgb(88, 88, 88);
-    border-top: 5px solid #56797c;
-    border-bottom: 5px solid #56797c;
-    border-right: 6px solid #56797c;
-    border-left: 2px solid #56797c;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-
-.dark-mode button {
-    color: #ffffff;
-    border: #7e7e7e;
-    background-color: #222;
-}
-
-.dark-mode button:hover {
-    border: 2px solid #7e7e7e;
-    color: #ffffff;
-    background-color: #414040;
-}
-
-.dark-mode header img {
-    text-decoration: none;
-    width: 30px;
-    height: 30px;
-    margin-top: -4px;
-    background-color: rgb(241, 232, 232);
-    border-radius: 50%;
-
-}
-
-.dark-mode header img:hover {
-    padding: 3px;
-    background-color: rgb(241, 232, 232);
-    border-radius: 100%;
-}
-
-.dark-mode header button {
-    color: #ffffff;
-    border: #7e7e7e;
-    background-color: #222;
-    padding: 4px;
-    transition: 0.2s;
-}
-
-.dark-mode header button:hover {
-    border: none;
-    color: none;
-    background-color: #222;
-    padding: 7px;
-
-}
-
-.dark-mode #sobre p {
-    color: rgb(255, 255, 255);
-    background-color: #888787;
-}
-
-.dark-mode #sobre {
-    background-color: rgb(117, 117, 117);
 }
