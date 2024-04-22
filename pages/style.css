@@ -37,11 +37,14 @@ content: "\2605";
     left: 300px;
     position: absolute;
     bottom: 275px;
-    width: 835px;
-    height: 170px;
     padding: 20px;
     border-radius: 30px;
     font-weight: 500;
+    min-width: 835px;
+    max-width: 100px;
+    min-height: 170px;
+    max-height: 300px;
+    display: flex;
 }
 
 

@@ -27,10 +27,9 @@
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    position: absolute;
-    top: 55%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-53%, 4%);
 }
 
 /* Modo Noturno */
@@ -60,25 +59,3 @@
     background-color: #888787;
 }
 
-/* Posição do Rodapé na página */
-#footer-title-1 {
-    position: absolute;
-    top: 100%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-}
-
-#footer-title-2 {
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    
-}
-
-footer {
-    position: absolute;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}

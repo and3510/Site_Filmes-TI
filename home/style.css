@@ -222,7 +222,7 @@ header button:hover {
     border-bottom-right-radius: 30px;
     display: flex;
     flex-direction: column;
-    min-height: 395px;
+    min-height: px;
     max-height: 1200px;
 }
 
@@ -285,8 +285,8 @@ footer {
     padding: 15px 45px;
     background-color: transparent;
     flex-wrap: wrap;
-    min-height: 45px;
-    max-height: 300px;
+    min-height: 100px;
+    max-height: 350px;
  
 }
 .dark-mode footer {

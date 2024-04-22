@@ -1,15 +1,13 @@
 // Algoritmo de Like e Deslike
 const likeButtons = document.querySelectorAll('.like');
-let curtido = false;
+let curtido = true;
 
 likeButtons.forEach(Curtir => {
     Curtir.addEventListener('click', function() {
         if (curtido) {
-            Curtir.classList.remove('curtido');
             Curtir.textContent = '👍';
             curtido = false;
         } else {
-            Curtir.classList.add('curtido');
             Curtir.textContent = '👎';
             curtido = true;
         }
