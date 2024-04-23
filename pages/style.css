@@ -16,6 +16,8 @@
 list-style-type: none;
 color: #ffe500;
 font-size: 25px;
+padding: 0px;
+margin: 0px;
 
 }
 
@@ -24,11 +26,6 @@ content: "\2606";
 }
 .estrela-icon.ativo::before{
 content: "\2605";
-}
-
-.estrela-icon {
-    padding: 0px;
-    margin: 0px;
 }
 
 /* Parte da sinopse do filme */
@@ -48,7 +45,7 @@ content: "\2605";
 }
 
 
-
+/*  Informações do diretor, data, e streamings */
 .infosFilme {
     border-radius: 30px;
     padding: 6px;
@@ -62,6 +59,7 @@ content: "\2605";
 }
 
 
+/* Seção de informações sobre filme */
 #painel {
     border-top: 5px solid #132122;
     border-bottom: 5px solid #132122;
@@ -74,12 +72,14 @@ content: "\2605";
     height: 1390px;
     
 }
+/* Modo Noturno */
 .dark-mode #painel {
     background-color: rgb(66, 66, 66);
     border-top: 5px solid #56797c;
     border-bottom: 5px solid #56797c;
 }
 
+/* Titulo do Filme*/
 #painel h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
@@ -88,7 +88,7 @@ content: "\2605";
 
 }
 
-
+/* Imagem do Filme*/
 #painel img {
     margin-top: 50px;
     margin-left: 63px;
@@ -106,23 +106,34 @@ content: "\2605";
     margin-top: -270px;
 }
 
+/* Comentários */
 #painel h2 {
     margin-top: 50px;
     color: rgb(0, 0, 0);
 }
 
+/* Modo Escuro */
 .dark-mode #painel h2 {
     margin-top: 30px;
     color: rgb(255, 255, 255);
 }
 
 
-
+/* paragrafos no painel */
 #painel p {
     padding-right: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     background-color: rgb(216, 210, 210);
+
+}
+
+/* Modo Escuro */
+
+.dark-mode #painel p {
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -135,12 +146,7 @@ content: "\2605";
     display: block;
 }
 
-.dark-mode #painel p {
-    padding-right: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
 
-}
 
 #painel nav {
     width: 170px; 
@@ -168,7 +174,7 @@ content: "\2605";
     font-size: 7px; 
 } 
 
-
+/* Modo Escuro */
 .dark-mode #painel nav p { 
     border-radius: 30px;
     margin: 0 auto;
@@ -221,6 +227,12 @@ content: "\2605";
     color: black;
 }
 
+/* Modo Escuro */
+.dark-mode #streamings a {
+    color: rgb(255, 255, 255)
+}
+
+/* Efeito MouseOver */
 #streamings a:hover {
     border: 2px solid #ffffff;
     padding: 10px;
@@ -240,11 +252,27 @@ content: "\2605";
     border: 6px solid rgb(14, 13, 13);
 }
 
+/* Modo Escuro */
+.dark-mode #comment {
+    background-color: #858585;
+    border: 6px solid #56797c;
+}
 
 
+
+/*  Parte do Comentario*/
 .comentario {
     height: 35%;
     background-color: rgb(216, 210, 210);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+
+.dark-mode .comentario {
+    height: 35%;
+    background-color: rgb(92, 91, 91);
     margin-bottom: 10px;
     padding: 15px;
     border-radius: 30px;
@@ -256,8 +284,15 @@ content: "\2605";
 
 }
 
+/* Modo Escuro */
+.dark-mode #comment p {
+    color: #ffffff;  
+    background-color: transparent;
+
+}
 
 
+/* Imagens de perfis dos comentarios */
 #comment img {
     border: 3px solid transparent;
     background-color: white;
@@ -269,16 +304,6 @@ content: "\2605";
     margin-bottom: 7px;
 }
 
-#comment .barra-pesquisa input {
-    margin-right: 10px;
-}
-
-#comment .barra-pesquisa hover:input {
-    margin-right: 10px;
-    padding: none;
-}
-
-
 .nome-usuario {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -289,6 +314,7 @@ content: "\2605";
 }
 
 
+/* Botao de enviar um comentario  */
 #botaoCurtir {
     padding: 10px 20px;
     border-radius: 100px;
@@ -301,6 +327,7 @@ content: "\2605";
 
 }
 
+/* Efeito do MouseOver*/
 #botaoCurtir:hover {
     right: 240px;
     bottom: 250px;
@@ -323,8 +350,10 @@ content: "\2605";
     margin-left: 10px;
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 0);
+    margin-right: 10px;
 }
 
+/* Efeito MouseOver */
 .barra-pesquisa input:hover {
     background-color: rgb(255, 255, 255);
     padding-right: none;
@@ -345,6 +374,7 @@ content: "\2605";
 
 }
 
+/* Efeito MouseOver*/
 .barra-pesquisa button:hover {
     padding: 5px;
     margin-right: -3px;
@@ -357,36 +387,7 @@ content: "\2605";
 }
 
 
-
-
-.dark-mode #streamings a {
-    color: rgb(255, 255, 255)
-}
-
-
-
-
-.dark-mode #comment {
-    background-color: #858585;
-    border: 6px solid #56797c;
-}
-
-
-.dark-mode .comentario {
-    height: 35%;
-    background-color: rgb(92, 91, 91);
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 30px;
-    
-}
-
-.dark-mode #comment p {
-    color: #ffffff;  
-    background-color: transparent;
-
-}
-
+/* Modo Escuro */
 .dark-mode #comment img {
     border: 3px solid rgb(0, 0, 0);
     background-color: white;
@@ -399,6 +400,8 @@ content: "\2605";
 }
 
 
+
+/* /* Modo Escuro --- Nome dos usuários dos comentários  */
 .dark-mode #comment span {
-    color: white;
+    color: rgb(255, 255, 255);
 }
