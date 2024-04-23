@@ -21,20 +21,20 @@ footer {
 }
 
 #coluna1 {
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: #2F4F4F;
+    border: 1px solid #2F4F4F;
     width: 325px;
     height: 920px;
 }
 
 #coluna2 {
-    background-color: purple;
-    border: 1px solid purple;
+    background-color: #2F4F4F;
+    border: 1px solid #2F4F4F;
     width: 1490px;
     height: 920px;
 }
 #foto{
-    border: 1px solid red;
+
     height: 300px;
     margin-top: 89px;
 }
@@ -44,7 +44,6 @@ img{
     width: 250px;
 }
 .nome_sinopse{
-border: 1px solid greenyellow;
 width: 680px;
 height: 200px;
 margin-top:50px;
@@ -53,12 +52,11 @@ padding-top: 3px;
 
 }
 .opçoes_trailer{
-    border: 1px solid pink;
     width: 780px;
     height: 320px;
 }
 .opçoes {
-border: 1px solid red;
+
 height: 310px;
 width: 200px;
 margin-right: 15px;
@@ -66,7 +64,7 @@ padding-left: 30px;
 line-height: 7px;
 }
 .trailer{
-    border: 1px solid yellow;
+   
     height: 320px;
     width: 600px;
 }
@@ -74,7 +72,6 @@ line-height: 7px;
 margin-left: 180px;
 }
 .container_comentario {
-    border: 1px solid orange;
     height: 310px;
     width: 730px;
     margin:auto;
@@ -102,7 +99,7 @@ p{
     color: white;
 }
 .streamings{
-    border: 1px solid cornflowerblue;
+    
     width:200px;
     height: 30px;
     display: block;
@@ -123,7 +120,7 @@ p{
     
 }
 .informacao{
-    border: 1px solid navy;
+    
     width: 210px;
     height: 120px;
 }
