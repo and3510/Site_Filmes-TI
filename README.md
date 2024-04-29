@@ -13,11 +13,11 @@
    - Modo escuro e claro;
    - Pagina de formulário;
    - Audio feito em IA para explicação do site.
-   - Avaliação de estrelas
+   - Notas do filmes por estrelas
    - Avaliação de comentario com like e deslike
 
 ## Tarefas:
-   - Anderson → Fazer o homepage, 2 duas páginas de filme, formulario;
+   - Anderson → Fazer o homepage, 2 duas páginas de filme, formulario e sobre o site;
    - Gustavo →  2 duas páginas de filme;
    - Beatriz → 2 duas páginas de filme;
    - Cristovam → 2 duas páginas de filme.
